@@ -1,0 +1,134 @@
+# Proxy
+
+`https://www.sslproxies.org/`
+`pypi.org: https://pypi.org/project/proxy-requests/ `
+```
+DAPATKAN:
+
+    
+r = ProxyRequests('https://api.ipify.org')
+r.get()                                                                                                        
+                                                                                                        
+DAPATKAN dengan tajuk:
+
+                                                                                                          
+                                                                                                         
+h = {'User-Agent': 'NCSA Mosaic/3.0 (Windows 95)'}                                                             
+r = ProxyRequests('url here')                                                                                  
+r.set_headers(h)                                                                                               
+r.get_with_headers()                                                                                           
+                                                                                                        
+POS:
+
+                                                                                                          
+                                                                                                         
+r = ProxyRequests('url here')                                                                                  
+r.post({'key1': 'value1', 'key2': 'value2'})                                                                   
+                                                                                                        
+POSTING dengan header:
+
+    
+r = ProxyRequests('url here')
+r.set_headers({'name': 'rootVIII', 'secret_message': '7Yufs9KIfj33d'})
+r.post_with_headers({'key1': 'value1', 'key2': 'value2'})
+    
+POSTING FILE:
+
+    
+r = ProxyRequests('url here')
+r.set_file('test.txt')
+r.post_file()
+    
+POST FILE dengan header:
+
+    
+h = {'User-Agent': 'NCSA Mosaic/3.0 (Windows 95)'}
+r = ProxyRequests('url here')
+r.set_headers(h)
+r.set_file('test.txt')
+r.post_file_with_headers()
+    
+DAPATKAN dengan Otentikasi Dasar:
+
+    
+r = ProxyRequestsBasicAuth('url here', 'username', 'password')
+r.get()
+    
+DAPATKAN dengan header & Otentikasi Dasar:
+
+    
+h = {'User-Agent': 'NCSA Mosaic/3.0 (Windows 95)'}
+r = ProxyRequestsBasicAuth('url here', 'username', 'password')
+r.set_headers(h)
+r.get_with_headers()
+    
+POST dengan Otentikasi Dasar:
+
+    
+r = ProxyRequestsBasicAuth('url here', 'username', 'password')
+r.post({'key1': 'value1', 'key2': 'value2'})
+    
+POST dengan header & Otentikasi Dasar:
+
+    
+r = ProxyRequestsBasicAuth('url here', 'username', 'password')
+r.set_headers({'header_key': 'header_value'})
+r.post_with_headers({'key1': 'value1', 'key2': 'value2'})
+    
+POST FILE dengan Otentikasi Dasar:
+
+    
+r = ProxyRequestsBasicAuth('url here', 'username', 'password')
+r.set_file('test.txt')
+r.post_file()
+    
+POST FILE dengan header & Otentikasi Dasar:
+
+    
+h = {'User-Agent': 'NCSA Mosaic/3.0 (Windows 95)'}
+r = ProxyRequestsBasicAuth('url here', 'username', 'password')
+r.set_headers(h)
+r.set_file('test.txt')
+r.post_file_with_headers()
+    
+
+
+Metode Respons
+
+Mengembalikan string:
+print(r)
+Atau jika Anda ingin konten mentah sebagai byte:
+r.get_raw()
+Dapatkan respons sebagai JSON (jika JSON valid):
+r.get_json()
+Dapatkan header respons:
+print(r.get_headers())
+Dapatkan kode status:
+print(r.get_status_code())
+Dapatkan URL yang diminta:
+print(r.get_url())
+Dapatkan proxy yang digunakan untuk membuat permintaan:
+print(r.get_proxy_used())
+
+Untuk menulis data mentah ke file (termasuk gambar):
+
+    
+
+url = 'https://www.restwords.com/static/ICON.png'
+r = ProxyRequests(url)
+r.get()
+with open('out.png', 'wb') as f:
+    f.write(r.get_raw())
+
+    
+
+Buang respons ke file sebagai JSON:
+    
+import json
+with open('test.txt', 'w') as f:
+    json.dump(r.get_json(), f)
+    
+```
+
+
+`created © jemy ® all copyrights reserved`
