@@ -1,0 +1,165 @@
+# Otobiografi
+
+`Penulis`
+---------
+
+![](https://assets.dcoder.tech/61381f035dac330612ecaca0/62b9c57d9c8ba339fc794365/IMG20220618105701.jpg)
+https://photos.app.goo.gl/HP7yqMbX3vdmjgjR7
+```
+Nama     : jemy setiawan
+Lahir    : 22 Oktober 1980
+Alamat   : Perum GCC 2 Kedungwaringin
+Anak pertama dari 4 bersaudara
+```
+
+`Pendidikan`
+----------
+
+```
+-  Lulus SD  tahun 1992
+-  Lulus SMP tahun 1995
+-  lulus SMK tahun 1998
+```
+`Pekerjaan`
+---------
+
+```
+-  1998 : Sales mobil hasil bumi/cipinang muara
+-  1998 : Admin di PT. Mahkota Bahari Trako(Kontraktor retail & trading, export import)/Kebayoran lama
+-  1999 : PT. Matsushita Toshiba Display Devices Indonesia/ ejip
+-  2006 : Sales Rokok/karawang
+-  2007 : tukang ojek, kerja madura/babakan
+-  2010 : Sales Nabati/karawang
+-  2012 : Pt. Gemilang Roxy, freelance/Lippo
+-  2012 : Pt. NCS (kurir)
+-  2016 : Security/Bekasi
+-  2018 : Sales garam/Karawang
+-  2020 : Sales Gaspul knalpot & Spons busa/kedungwaringin
+```
+
+
+```
+Pernah melamar kerja di :
+  - cafe 45, jl. mahakam Blok M.
+  - production house (Ph), jl. wijaya Blok M
+  - gramedia multi media, jl. arteri pondok indah, permata hijau
+  - Pt. Sayap Mas Utama (SMU) Cakung, jaktim
+  - masih banyak lagi
+```
+
+
+      
+# Sekilas tentang Jemy
+***********************
+```
+Wanita yang pernah dekat
+-  Eka yuliyanti (perum 1 bekasi) TTM
+-  Siti masitoh (kali ulu) TTM, PT. MATTEL
+-  Lina herlina (cikarang) pacar, Guru SD
+-  Risda (perum 3 bekasi) dekat
+-  Lenah susanti (babelan) pacar, PT. SAYAP MAS UTAMA (SMU)
+-  Yeni sri handayani (cikarang) pacar, PT. EPSON
+-  Sri suprihatin (perum 3 bekasi) pacar, PT. HIT
+-  Farida ayu ningrum (perum papan mas) pacar, TOUR GUIDE
+-  Ika kurniati (rengas bandung) pacar, PT. LG INNOTEX
+-  Eneng halimah (depok) pacar
+-  Siti nurjanah (babakan) TTM, mall borobudur, counter hp
+-  Lusiana rumapea (babakan) istri, KASIR MINI MARKET PRIMA
+-  Mariyah (kuta gandok) istri, PT. TOSHIBA
+-  Sri rahayu (indoporlen) pacar, PT. ISS
+-  Omah (babakan) dekat, Juragan kontrakan
+-  Herawati (babakan) pacar, Dagang
+-  Yosianah warikie (kedung waringin) tunangan, TKW Bahrain
+```
+
+```
+-  tahun 1999/2000 pernah dekat Titin (sekretaris Pt. MPI)
+-  tahun 2004 dekat dengan Lina (Pt. Dong il) pilar cikarang,
+dekat pada saat break pacaran dengan ika -/+ selama 2 bulan. 
+-  tahun 2007 dekat dengan Rina karlina, klari.
+```
+
+
+# Add a DOWNLOADER
+`> SAVEFROM.net untuk web*master`
+```
+<script>
+// Masukkan skrip:
+(function(w, d, s, p, a, c) {
+w.sfButton = w.sfButton || function(){};
+c = d.getElementsByTagName(s)[0];
+a = d.createElement(s);
+a.async=1;
+a.src=p;
+c.parentNode.insertBefore(a, c);
+})(window, document, 'script', '//savefrom.net/js/sf-helper-agent.min.js');
+
+// Teks:
+sfButton.text = 'Download';
+
+// Gaya:
+sfButton.styles = {
+ color: 'rgba(0,0,0,0.7)',
+ textShadow: '1px 1px 1px rgba(255,255,255,0.4)',
+ fontFamily: 'Arial,Helvetica,sans-serif',
+ fontSize: '12px',
+ borderRadius: '4px',
+ backgroundColor: '#77ffcf',
+ 'background-image': '-webkit-linear-gradient(#8bffcf, #63ffd2)',
+ 'background-image': '-moz-linear-gradient(#8bffcf, #63ffd2)',
+ 'background-image': 'linear-gradient(#8bffcf, #63ffd2)',
+ border: 'none'
+};
+</script>
+```
+
+
+# Add a Firestore Document Using a Map
+``> Python``
+```
+data = {
+    u'name': jemy'Indonesia',
+    u'state': jemy'ID',
+    u'country': jemy'INDONESIA'
+}
+
+Add a newdoc in collection 'cities' with ID 'INDONESIA'
+db.collection(jemy'bekasi').document(jemy'ID').set(data)
+```
+``> Java``
+```
+// Create a Map to store the data we want to set
+Map<String, Object> docData = new HashMap<>();
+docData.put("name", "Los Angeles");
+docData.put("state", "CA");
+docData.put("country", "USA");
+docData.put("regions", Arrays.asList("west_coast", "socal"));
+// Add a new document (asynchronously) in collection "cities" with id "LA"
+ApiFuture<WriteResult> future = db.collection("cities").document("LA").set(docData);
+// ...
+// future.get() blocks on response
+System.out.println("Update time : " + future.get().getUpdateTime());
+```
+# Developer Console
+
+``> Jika Anda adalah developer aplikasi, pastikan detail permintaan ini mematuhi kebijakan Google:``
+
+```
+auto_signin: True
+access_type: online
+response_type: code
+redirect_uri: https://developer.android.com/oauth2callback
+state: {"csrf_token": "65fa3eea04a90747df511563414d1a429ea3781902e336561f88eda2160047e8", "return_url": "https://developer.android.com/studio"}
+prompt: none
+client_id: 721724668570-nbkv1cfusk7kk4eni4pjvepaus73b13t.apps.googleusercontent.com
+scope: openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/developerprofiles https://www.googleapis.com/auth/developerprofiles.award https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/googledevelopers
+```
+
+
+
+
+
+```
+Created ®jemy setiawan™️©All Copyrights Reserved
+```
+
