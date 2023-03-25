@@ -1,0 +1,57 @@
+#!/usr/bin/python3
+
+import time
+ 
+t = time.localtime(time.time())
+localtime = time.asctime(t)
+str = "Current Time:" + time.asctime(t)
+print(str);
+print("hello world")
+print('What is your name?')
+print('How are you today?')
+print('come to join me')
+print('be my friends')
+print('& nice to see you')
+
+txt = "love python programming"
+print("love" in txt) # true
+txt = "love python programming"
+print("hello" in txt) # false
+
+site = ["https://github.com/sjemy2210", "https://code.dcoder.tech/sjemy"]
+print(site) 
+
+person = {
+    "first_name": "jemy",
+    "last_name": "Setiawan",
+    "age": 43
+}
+print(person)
+
+user = {
+    "manager": {
+        "name": "Jemy seriawan",
+        "age": 43
+    },
+    "programmer": {
+        "name": "Jemy Setiawan",
+        "age": 43
+    }
+}
+
+user = {
+    "manager": {
+        "name": "Jemy setiawan",
+        "age": 43
+    },
+    "programmer": {
+        "name": "Jemy setiawan",
+        "age": 43
+    },
+}
+print(user["manager"]["name"])
+print(user["programmer"]["name"])
+
+import datetime
+now = datetime.datetime.now()
+print(now)
